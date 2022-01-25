@@ -126,7 +126,7 @@ class interaction_dialog(object):
         self.horizontalLayout_12.setObjectName("horizontalLayout_12")
         self.horizontalLayout_11 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_11.setObjectName("horizontalLayout_11")
-        self.sqleditor = QtWidgets.QLineEdit()
+        self.sqleditor = Qsci.QsciScintilla(self.groupBox_2)
         #self.sqleditor.setStyleSheet("background-color: red")
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Ignored)
         sizePolicy.setHorizontalStretch(0)
